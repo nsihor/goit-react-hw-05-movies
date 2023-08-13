@@ -15,7 +15,7 @@ const MovieList = ({ movie }) => {
           alt={movie.original_title ?? movie.original_name}
         />
       ) : (
-        <Link to={`/movies/${movie.id}`}>
+        <Link to={`/goit-react-hw-05-movies/movies/${movie.id}`}>
           <img
             src={
               movie.poster_path

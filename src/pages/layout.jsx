@@ -7,14 +7,17 @@ const Layout = () => {
       <Header>
         <h1>Movies Center</h1>
         <Nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/movies">Movies</NavLink>
+          <NavLink to="/goit-react-hw-05-movies">Home</NavLink>
+          <NavLink to="/goit-react-hw-05-movies/movies">Movies</NavLink>
         </Nav>
       </Header>
       <Outlet />
       <Footer>
         <p>
-          Created by <a href="https://github.com/nsihor">Ihor</a>
+          Created by{' '}
+          <a target="_blank" href="https://github.com/nsihor" rel="noreferrer">
+            Ihor
+          </a>
         </p>
       </Footer>
     </>
