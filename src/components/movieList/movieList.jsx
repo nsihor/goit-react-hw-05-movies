@@ -8,7 +8,6 @@ const MovieList = ({
 
   return (
     <li>
-      {console.log(id)}
       {location.pathname.includes(id) ? (
         <img
           src={
