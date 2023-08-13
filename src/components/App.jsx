@@ -23,7 +23,7 @@ export const App = () => {
           path="*"
           element={
             <div>
-              <h1>Error 404</h1> <Link to="/">Home</Link>
+              <h1>Error 404</h1> <Link to="goit-react-hw-05-movies/">Home</Link>
             </div>
           }
         />
