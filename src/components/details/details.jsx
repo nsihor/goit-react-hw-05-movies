@@ -4,7 +4,7 @@ import { useParams, Link, Outlet } from 'react-router-dom';
 import MovieList from 'components/movieList/movieList';
 
 const Details = () => {
-  const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState({});
 
   const { movieId } = useParams();
 
