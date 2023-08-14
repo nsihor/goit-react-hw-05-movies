@@ -22,7 +22,7 @@ const Cast = () => {
   return (
     <>
       <p>Cast:</p>
-      <ul>
+      <ul style={{ display: 'block' }}>
         {cast
           ? cast.map(actor => <li key={actor.id}>{actor.name}</li>)
           : 'Sorry we can`t find cast'}

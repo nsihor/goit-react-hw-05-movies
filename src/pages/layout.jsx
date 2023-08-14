@@ -7,8 +7,8 @@ const Layout = () => {
       <Header>
         <h1>Movies Center</h1>
         <Nav>
-          <NavLink to="/goit-react-hw-05-movies">Home</NavLink>
-          <NavLink to="/goit-react-hw-05-movies/movies">Movies</NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/movies">Movies</NavLink>
         </Nav>
       </Header>
       <Outlet />
