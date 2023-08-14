@@ -1,5 +1,5 @@
 import { getMovieDetails } from 'services/services';
-import { useState, useEffect } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { useParams, Link, Outlet } from 'react-router-dom';
 import MovieList from 'components/movieList/movieList';
 
@@ -28,7 +28,9 @@ const Details = () => {
         Cast
       </Link>
       <Link to="reviews">Reviews</Link>
-      <Outlet />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Outlet />
+      </Suspense>
     </div>
   );
 };
